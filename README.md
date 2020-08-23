@@ -1,1 +1,1 @@
-# internet-explorer
+# Internet Explorer
