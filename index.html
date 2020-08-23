@@ -7,18 +7,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <style>
+        @font-face {
+            font-family: Terminus;
+            src: url(fonts/TerminusTTF-4.47.0.woff);
+        }
         body {
             background: rgb(192,192,192);
-            margin: 32px 25vw 32px 32px;
-            font-family: 'Courier New', Courier, monospace;
-            font-smooth: 1em;
+            color: rgb(10,10,10);
+            margin: 32px 32px 32px 32px;
+            font-family: Terminus, Courier, monospace;
+            letter-spacing: 0.5px;
+            font-smooth: none;
             -webkit-font-smoothing: none;
         }
+        #content {
+            padding: 0 0 16px 0
+        }
+        .footer {
+            max-width: 640px;
+        }
+        
     </style>
     <body>
-        <h1>Internet Explorer</h1> 
+    <div id="content">
+        <h1 class="title">INTERNET EXPLORER</h1> 
         
-        <h3>The internet was barren land<br>
+        <h3 class="poem">The internet was barren land<br>
             The barren land was cultivated by farmers<br>
             Farmers were coders segmenting the land into farms <br>
             Farms were websites <br><br>
@@ -56,17 +70,18 @@
             <br><br><br>
         </h3> 
 
-        <p>⬤ Notes: <br><br>
+        <p class="footer">⬤<br><br>
 
-            The above is a poem written by Katy Brett and Jonathan Quaade. It exists as a bedrock for how we 
+            The above is a poem written by <a href="https://www.are.na/jonathan-quaade/015-organic.com">Katy Brett</a> and <a href="https://www.are.na/jonathan-quaade/015-organic">Jonathan Quaade</a>. It exists as a bedrock for how we 
             might explore the internet’s landscape with regard to the organic world.<br><br>
             
             Composed over video call on the 23rd of August, 2020.<br><br>
             
             This website is built as a single HTML document.<br><br>
-            Thanks to NSCA Mosaic for starting this journey. 
+            Thanks to <a href="https://en.wikipedia.org/wiki/WorldWideWeb">WorldWideWeb</a> for starting this journey. 
 
         </p>
+    </div>
 
 
         
